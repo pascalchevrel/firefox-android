@@ -76,7 +76,7 @@ object Versions {
         const val savedstate = "1.2.1"
         const val paging = "2.1.2"
         const val palette = "1.0.0"
-        const val preferences = "1.1.1"
+        const val preferences = "1.2.0"
         const val lifecycle = "2.6.1"
         const val media = "1.2.0"
         const val navigation = "2.5.3"
