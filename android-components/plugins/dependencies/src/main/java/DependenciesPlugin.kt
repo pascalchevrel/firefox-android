@@ -73,7 +73,7 @@ object Versions {
         const val espresso = "3.5.1"
         const val room = "2.4.3"
         const val savedstate = "1.2.1"
-        const val paging = "2.1.2"
+        const val paging = "3.1.1"
         const val palette = "1.0.0"
         const val preferences = "1.1.1"
         const val lifecycle = "2.6.1"
