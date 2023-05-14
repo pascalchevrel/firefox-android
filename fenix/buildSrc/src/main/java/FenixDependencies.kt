@@ -54,7 +54,7 @@ object FenixVersions {
     const val uiautomator = "2.2.0"
     const val robolectric = "4.10.1"
 
-    const val google_ads_id_version = "16.0.0"
+    const val google_ads_id_version = "18.0.1"
 
     const val google_play_review_version = "2.0.0"
 
