@@ -80,7 +80,7 @@ object Versions {
         const val lifecycle = "2.6.1"
         const val media = "1.2.0"
         const val navigation = "2.5.3"
-        const val work = "2.7.1"
+        const val work = "2.8.1"
         const val arch = "2.2.0"
         const val uiautomator = "2.2.0"
         const val localbroadcastmanager = "1.0.0"

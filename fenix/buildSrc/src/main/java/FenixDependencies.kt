@@ -38,7 +38,7 @@ object FenixVersions {
     const val androidx_core = "1.10.0"
     const val androidx_paging = "3.1.1"
     const val androidx_transition = "1.4.1"
-    const val androidx_work = "2.7.1"
+    const val androidx_work = "2.8.1"
     const val androidx_datastore = "1.0.0"
     const val androidx_datastore_preferences = "1.0.0"
     const val google_material = "1.9.0"

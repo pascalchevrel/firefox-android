@@ -29,7 +29,7 @@ object FocusVersions {
         const val savedstate = "1.2.1"
         const val splashscreen = "1.0.1"
         const val transition = "1.4.1"
-        const val work = "2.7.1"
+        const val work = "2.8.1"
         const val androidx_datastore_preferences = "1.0.0"
     }
 
