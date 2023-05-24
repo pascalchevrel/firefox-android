@@ -25,9 +25,7 @@ object Versions {
     const val maven_ant_tasks = "2.1.3"
     const val jacoco = "0.8.10"
 
-    // TO-DO: These could be kept in sync in the future
-    const val mockwebserver = "3.10.0"
-    const val okhttp = "3.13.1"
+    const val mockwebserver = "4.11.0"
 
     const val android_gradle_plugin = "7.4.2"
 
@@ -198,8 +196,8 @@ object ComponentsDependencies {
     val mozilla_rustlog = "${ApplicationServicesConfig.groupId}:rustlog:${ApplicationServicesConfig.version}"
     val mozilla_sync15 = "${ApplicationServicesConfig.groupId}:sync15:${ApplicationServicesConfig.version}"
 
-    const val thirdparty_okhttp = "com.squareup.okhttp3:okhttp:${Versions.okhttp}"
-    const val thirdparty_okhttp_urlconnection = "com.squareup.okhttp3:okhttp-urlconnection:${Versions.okhttp}"
+    const val thirdparty_okhttp = "com.squareup.okhttp3:okhttp:${Versions.mockwebserver}"
+    const val thirdparty_okhttp_urlconnection = "com.squareup.okhttp3:okhttp-urlconnection:${Versions.mockwebserver}"
     const val thirdparty_sentry_latest = "io.sentry:sentry-android:${Versions.sentry_latest}"
     const val thirdparty_zxing = "com.google.zxing:core:${Versions.zxing}"
     const val thirdparty_disklrucache = "com.jakewharton:disklrucache:${Versions.disklrucache}"
