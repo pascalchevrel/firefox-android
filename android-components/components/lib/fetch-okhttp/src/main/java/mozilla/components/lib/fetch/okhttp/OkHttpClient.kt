@@ -104,13 +104,13 @@ private fun OkHttpClient.rebuildFor(request: Request, context: Context?): OkHttp
 }
 
 private fun okhttp3.Response.toResponse(): Response {
-    val body = body()
-    val headers = translateHeaders(headers())
+    val body = body
+    val headers = translateHeaders(headers)
 
     return Response(
-        url = request().url().toString(),
+        url = request.url.toString(),
         headers = headers,
-        status = code(),
+        status = code,
         body = if (body != null) Response.Body(body.byteStream(), headers["Content-Type"]) else Response.Body.empty(),
     )
 }
@@ -141,7 +141,7 @@ private fun RequestBuilder.addHeadersFrom(request: Request, defaultHeaders: Head
 private fun translateHeaders(actualHeaders: okhttp3.Headers): Headers {
     val headers = MutableHeaders()
 
-    for (i in 0 until actualHeaders.size()) {
+    for (i in 0 until actualHeaders.size) {
         headers.append(actualHeaders.name(i), actualHeaders.value(i))
     }
 
