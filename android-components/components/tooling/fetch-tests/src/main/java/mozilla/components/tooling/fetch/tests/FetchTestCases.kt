@@ -92,7 +92,7 @@ abstract class FetchTestCases {
 
             val request = takeRequest()
 
-            assertTrue(request.headers.size() >= 5)
+            assertTrue(request.headers.size >= 5)
 
             val names = request.headers.names()
             assertTrue(names.contains("Accept"))
@@ -359,7 +359,7 @@ abstract class FetchTestCases {
 
             val request = takeRequest()
 
-            for (i in 0 until request.headers.size()) {
+            for (i in 0 until request.headers.size) {
                 println(" Header: " + request.headers.name(i) + " = " + request.headers.value(i))
             }
 
