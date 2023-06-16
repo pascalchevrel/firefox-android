@@ -26,7 +26,7 @@ object FenixVersions {
     const val leakcanary = "2.11"
     const val osslicenses_plugin = "0.10.4"
     const val detekt = "1.23.0"
-    const val ktlint = "0.48.2"
+    const val ktlint = "0.49.1"
 
     const val maven_ant_tasks = "2.1.3"
     const val jacoco = "0.8.10"
