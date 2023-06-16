@@ -419,8 +419,7 @@ class TabDrawerRobot {
             return Transition()
         }
 
-        fun openRecentlyClosedTabs(interact: RecentlyClosedTabsRobot.() -> Unit):
-            RecentlyClosedTabsRobot.Transition {
+        fun openRecentlyClosedTabs(interact: RecentlyClosedTabsRobot.() -> Unit): RecentlyClosedTabsRobot.Transition {
             threeDotMenu().click()
 
             mDevice.waitNotNull(
@@ -435,8 +434,7 @@ class TabDrawerRobot {
             return RecentlyClosedTabsRobot.Transition()
         }
 
-        fun clickSaveCollection(interact: CollectionRobot.() -> Unit):
-            CollectionRobot.Transition {
+        fun clickSaveCollection(interact: CollectionRobot.() -> Unit): CollectionRobot.Transition {
             saveTabsToCollectionButton().click()
 
             CollectionRobot().interact()
